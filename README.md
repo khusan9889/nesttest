@@ -45,10 +45,14 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 ### Check Get, Post methods via Postman
-@GET()
-/users?created_date_order=ASC will return all users sorted by their created_date in ascending order.
-/users?username=johndoe will return all users with the username johndoe.
-/users?created_date_order=DESC&username=johndoe will return all users with the username johndoe sorted by their created_date in descending order.
+```bash 
+# @GET()
+/users?created_date_order=ASC - will return all users sorted by their created_date in ascending order. 
+# 
+/users?username=johndoe - will return all users with the username johndoe.
+# 
+/users?created_date_order=DESC&username=johndoe - will return all users with the username johndoe sorted by their created_date in descending order.
 
-@POST()
+# @POST()
 /users/create
+```
